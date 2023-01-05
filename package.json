@@ -1,0 +1,19 @@
+{
+  "name": "proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "npx nodemon --exec electron . --watch ./ --ext .css "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^22.0.0"
+  },
+  "dependencies": {
+    "electron": "^22.0.0",
+    "electron-win-state": "^1.1.22"
+  }
+}
